@@ -16,6 +16,8 @@
 		
 		while($result = mysql_fetch_array( $sql )) {
 			echo $result['name'];
+			echo $result['telephone'];
+			echo $result['email'];
 			echo "<br>";
 		}
 	}
